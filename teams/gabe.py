@@ -7,7 +7,7 @@ import os
 # make my mambo object
 # remember to set True/False for the wifi depending on if you are using the wifi or the BLE to connect
 
-mamboaddr = os.environ.get('DRONE_ADDRESS')
+mamboAddr = os.environ.get('DRONE_ADDRESS')
 
 mambo = Mambo(mamboAddr, use_wifi=False)
 
