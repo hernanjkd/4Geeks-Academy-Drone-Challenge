@@ -4,6 +4,7 @@ Demo the direct flying for the python interface
 Author: Amy McGovern
 """
 import os
+
 from pyparrot.Minidrone import Mambo
 
 # you will need to change this to the address of YOUR mambo
